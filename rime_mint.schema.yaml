@@ -372,10 +372,10 @@ key_binder:
     - { when: predicting, accept: period, send: period }
     - { when: always, accept: Control+Shift+1, select: .next }
     - { when: always, accept: Control+Shift+2, toggle: ascii_mode }
-    - { when: always, accept: Control+Shift+3, toggle: full_shape }
+#    - { when: always, accept: Control+Shift+3, toggle: full_shape }
     - { when: always, accept: Control+Shift+4, toggle: transcription }
     - { when: always, accept: Control+Shift+5, toggle: extended_charset }
-    - { when: always, accept: Shift+space, toggle: full_shape }
+#    - { when: always, accept: Shift+space, toggle: full_shape }
     - { when: always, accept: Control+period, toggle: ascii_punct }
     
 menu:
